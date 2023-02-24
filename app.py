@@ -6,7 +6,7 @@ cap = cv2.VideoCapture(0)
 width, height = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH)), int(
     cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
 
-background_image = cv2.resize(cv2.imread("google.jpg"), (width, height))
+background_image = cv2.resize(cv2.imread("surprise.jpg"), (width, height))
 
 segmentor = SelfiSegmentation()
 
